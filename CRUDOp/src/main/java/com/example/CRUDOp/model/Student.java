@@ -1,25 +1,16 @@
 package com.example.CRUDOp.model;
 
 import jakarta.persistence.*;
-<<<<<<< HEAD
 
-=======
-import lombok.Data;
->>>>>>> 6b8ca155852eedf7a4744396e8d00360182eed1c
 
 
 
 @Entity
-<<<<<<< HEAD
 
-=======
-@Data
->>>>>>> 6b8ca155852eedf7a4744396e8d00360182eed1c
 public class Student {
     @Id
     private Long rollno;
     private String name;
-<<<<<<< HEAD
 
     @Override
     public String toString() {
@@ -54,7 +45,5 @@ public class Student {
         this.department = department;
     }
 
-=======
->>>>>>> 6b8ca155852eedf7a4744396e8d00360182eed1c
     private String department;
 }
