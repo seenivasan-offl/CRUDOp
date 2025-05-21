@@ -6,10 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-<<<<<<< HEAD
 import java.util.Optional;
-=======
->>>>>>> 6b8ca155852eedf7a4744396e8d00360182eed1c
 
 @Service
 public class StudentService {
@@ -23,7 +20,6 @@ public class StudentService {
     public Student addStudent(Student student) {
         return studentRepository.save(student);
     }
-<<<<<<< HEAD
 
     public Student getbyidStudents(Long rollno) {
         return studentRepository.findById(rollno).orElse(new Student());
@@ -40,6 +36,4 @@ public class StudentService {
     public List<Student> getstudentsnames(String name) {
         return studentRepository.findByName(name);
     }
-=======
->>>>>>> 6b8ca155852eedf7a4744396e8d00360182eed1c
 }
